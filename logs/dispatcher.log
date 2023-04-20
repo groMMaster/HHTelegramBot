@@ -1,0 +1,10 @@
+2023-04-19 13:34:03 DEBUG TelegramBot:32 - /start
+2023-04-19 15:20:34 DEBUG TelegramBot:45 - /start
+2023-04-19 15:21:09 DEBUG TelegramBot:45 - /start
+2023-04-19 15:31:25 DEBUG UpdateProducerImpl:14 - /startproducer
+2023-04-19 15:33:21 DEBUG UpdateProducerImpl:14 - nullproducer
+2023-04-19 16:07:30 DEBUG UpdateProducerImpl:20 - producer: 44
+2023-04-19 18:10:26 DEBUG UpdateProducerImpl:20 - producer: 45
+2023-04-19 18:11:34 DEBUG UpdateProducerImpl:20 - producer: 46
+2023-04-20 10:24:35 DEBUG UpdateProducerImpl:20 - producer: 45
+2023-04-20 18:06:16 DEBUG UpdateProducerImpl:20 - producer: f
