@@ -8,6 +8,7 @@ import org.springframework.context.annotation.Configuration;
 
 import static ru.relax.model.RabbitQueue.*;
 
+
 @Configuration
 public class RabbitConfig {
     @Bean
@@ -16,13 +17,18 @@ public class RabbitConfig {
     }
 
     @Bean
-    public Queue textMessageQueue() {
-        return new Queue(TEXT_MESSAGE_UPDATE);
+    public Queue removeMessageQueue() {
+        return new Queue(REMOVE_COMMAND_UPDATE);
     }
 
     @Bean
-    public Queue docMessageQueue() {
-        return new Queue(DOC_MESSAGE_UPDATE);
+    public Queue searchMessageQueue() {
+        return new Queue(SEARCH_MESSAGE_UPDATE);
+    }
+
+    @Bean
+    public Queue startCommandQueue() {
+        return new Queue(START_COMMAND_UPDATE);
     }
 
     @Bean

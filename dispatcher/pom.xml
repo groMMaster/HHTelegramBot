@@ -23,7 +23,7 @@
         <dependency>
             <groupId>org.telegram</groupId>
             <artifactId>telegrambots</artifactId>
-            <version>${telegrambot.starter.version}</version>
+            <version>6.4.0</version>
         </dependency>
 
         <dependency>

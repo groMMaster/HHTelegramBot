@@ -8,6 +8,9 @@
     <module>dispatcher</module>
     <module>common-rabbitmq</module>
       <module>node</module>
+      <module>hhapi</module>
+      <module>Notifications</module>
+      <module>hhapi17</module>
   </modules>
   <version>1.0-SNAPSHOT</version>
   <name>HHTelegramBot Maven Webapp</name>
