@@ -33,7 +33,7 @@ public class NotificationsController {
         userDAO.flush();
     }
 
-    public List<Vacancy> getNewVacanciesByUser(Long userId, String tag) {
+    public List<Vacancy> getNewVacanciesByUser(Long userId, String... tag) {
         var user = userDAO.findById(userId).get();
         var allVacancies = GetVacanciesByTags(user.getVacancyTags());
         var newVacancies = removeViewedVacancies(user, allVacancies);

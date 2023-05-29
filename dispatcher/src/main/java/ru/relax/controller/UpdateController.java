@@ -5,6 +5,7 @@ import lombok.var;
 import org.springframework.stereotype.Component;
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
 import org.telegram.telegrambots.meta.api.objects.Update;
+import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
 import ru.relax.service.UpdateProducer;
 import ru.relax.unils.MessageUtils;
 
@@ -102,5 +103,18 @@ public class UpdateController {
                 "А чтобы удалить запрос выбери команду /remove в меню и...\n\n" +
                 "Удачи!");
         setView(received);
+    }
+
+
+    public void sendMessage(Long chatId, String textMessage) {
+        SendMessage message = new SendMessage();
+        message.setChatId(chatId);
+        message.setText(textMessage);
+
+        try {
+            telegramBot.execute(message);
+        } catch (TelegramApiException e) {
+            e.printStackTrace();
+        }
     }
 }

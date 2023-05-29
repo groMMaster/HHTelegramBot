@@ -5,65 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="500b00ab-26d3-4c6f-b402-5aa2e7edc990" name="Changes" comment="-">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/src/main/java/ru/relax/controller/Scheduler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/src/main/java/ru/relax/controller/TimerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-rabbitmq/src/main/java/ru/relax/model/RabbitQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-rabbitmq/src/main/java/ru/relax/model/RabbitQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dispatcher/src/main/java/ru/relax/config/RabbitConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/dispatcher/src/main/java/ru/relax/config/RabbitConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dispatcher/src/main/java/ru/relax/controller/TelegramBot.java" beforeDir="false" afterPath="$PROJECT_DIR$/dispatcher/src/main/java/ru/relax/controller/TelegramBot.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dispatcher/src/main/java/ru/relax/controller/UpdateController.java" beforeDir="false" afterPath="$PROJECT_DIR$/dispatcher/src/main/java/ru/relax/controller/UpdateController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhapi/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhapi/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hhapi/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhapi/src/main/java/ru/relax/HhApiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhapi/src/main/java/ru/relax/HhApiApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhapi/src/main/java/ru/relax/HhApiApplicationOld.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhapi/src/main/java/ru/relax/controller/HhApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhapi/src/main/java/ru/relax/controller/HhApiController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhapi/src/main/java/ru/relax/model/Vacancy.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhapi/src/main/java/ru/relax/model/Vacancy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhapi/src/main/java/ru/relax/services/HhApiService.java" beforeDir="false" afterPath="$PROJECT_DIR$/hhapi/src/main/java/ru/relax/services/HhApiService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhapi/src/main/java/ru/relax/services/HhApiServiceOld.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhapi/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhapi17/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhapi17/src/main/java/ru/relax/HhApi17Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhapi17/src/main/java/ru/relax/controller/HhApiController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhapi17/src/main/java/ru/relax/model/Address.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhapi17/src/main/java/ru/relax/model/Data.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhapi17/src/main/java/ru/relax/model/Employer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhapi17/src/main/java/ru/relax/model/Salary.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhapi17/src/main/java/ru/relax/model/Vacancy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hhapi17/src/main/java/ru/relax/services/HhApiService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/dispatcher.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/dispatcher.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/node/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node/src/main/java/ru/relax/NodeApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/node/src/main/java/ru/relax/NodeApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node/src/main/java/ru/relax/config/RabbitConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/node/src/main/java/ru/relax/config/RabbitConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node/src/main/java/ru/relax/dao/RawDataDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node/src/main/java/ru/relax/entity/AppUsers.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node/src/main/java/ru/relax/entity/RawData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node/src/main/java/ru/relax/service/ConsumerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/node/src/main/java/ru/relax/service/ConsumerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node/src/main/java/ru/relax/service/MainService.java" beforeDir="false" afterPath="$PROJECT_DIR$/node/src/main/java/ru/relax/service/MainService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node/src/main/java/ru/relax/service/ProduceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/node/src/main/java/ru/relax/service/ProduceService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node/src/main/java/ru/relax/service/impl/ConsumerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/node/src/main/java/ru/relax/service/impl/ConsumerServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node/src/main/java/ru/relax/service/impl/MainServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/node/src/main/java/ru/relax/service/impl/MainServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node/src/main/java/ru/relax/service/impl/ProduceServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/node/src/main/java/ru/relax/service/impl/ProduceServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node/src/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node/src/resources/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notifications/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notifications/src/main/java/ru/relax/NotificationsApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notifications/src/main/java/ru/relax/config/RabbitConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notifications/src/main/java/ru/relax/controller/NotificationsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/node/src/main/java/ru/relax/controller/NotificationsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notifications/src/main/java/ru/relax/dao/PastVacancyDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/node/src/main/java/ru/relax/dao/PastVacancyDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notifications/src/main/java/ru/relax/dao/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/node/src/main/java/ru/relax/dao/UserDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notifications/src/main/java/ru/relax/dao/VacancyTagDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/node/src/main/java/ru/relax/dao/VacancyTagDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notifications/src/main/java/ru/relax/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/node/src/main/java/ru/relax/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notifications/src/main/java/ru/relax/entity/VacancyTag.java" beforeDir="false" afterPath="$PROJECT_DIR$/node/src/main/java/ru/relax/entity/VacancyTag.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notifications/src/main/java/ru/relax/entity/ViewedVacancy.java" beforeDir="false" afterPath="$PROJECT_DIR$/node/src/main/java/ru/relax/entity/ViewedVacancy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notifications/src/main/java/ru/relax/service/ConsumerService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notifications/src/main/java/ru/relax/service/MainService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notifications/src/main/java/ru/relax/service/ProduceService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notifications/src/main/java/ru/relax/service/impl/ConsumerServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notifications/src/main/java/ru/relax/service/impl/MainServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notifications/src/main/java/ru/relax/service/impl/ProduceServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notifications/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/node/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node/src/main/java/ru/relax/controller/NotificationsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/node/src/main/java/ru/relax/controller/NotificationsController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,33 +55,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "list",
-    "last_opened_file_path": "C:/Users/groMM/Downloads/HHTelegramBot-hhapi/HHTelegramBot-hhapi/notifications/src/main/java/ru/relax",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.settings.ide.settings.uml",
-    "spring.configuration.checksum": "7b754461c380fbbba3d70d58bba7a261",
-    "vue.rearranger.settings.migration": "true"
-  },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
-    ]
-  }
-}]]></component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\groMM\Downloads\HHTelegramBot-hhapi\HHTelegramBot-hhapi\notifications\src\main\java\ru\relax" />
@@ -195,26 +129,28 @@
     </configuration>
     <configuration name="DispatcherApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="dispatcher" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="ru.relax.DispatcherApplication" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ru.relax.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ru.relax.DispatcherApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="NodeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="node" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="ru.relax.NodeApplication" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ru.relax.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ru.relax.NodeApplication" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -237,8 +173,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.DispatcherApplication" />
         <item itemvalue="Spring Boot.NodeApplication" />
+        <item itemvalue="Spring Boot.DispatcherApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -265,6 +201,7 @@
       <workItem from="1685032319993" duration="15200000" />
       <workItem from="1685370112986" duration="782000" />
       <workItem from="1685374721725" duration="1990000" />
+      <workItem from="1685384212165" duration="12110000" />
     </task>
     <task id="LOCAL-00001" summary="-">
       <created>1685034095548</created>
@@ -298,34 +235,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/node/src/main/java/ru/relax/service/impl/ConsumerServiceImpl.java</url>
-          <line>36</line>
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/node/src/main/java/ru/relax/service/impl/MainServiceImpl.java</url>
           <line>63</line>
           <option name="timeStamp" value="34" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/node/src/main/java/ru/relax/service/impl/ConsumerServiceImpl.java</url>
-          <line>30</line>
-          <option name="timeStamp" value="35" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/node/src/main/java/ru/relax/service/impl/ConsumerServiceImpl.java</url>
-          <line>42</line>
-          <option name="timeStamp" value="36" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/node/src/main/java/ru/relax/service/impl/ConsumerServiceImpl.java</url>
-          <line>24</line>
-          <option name="timeStamp" value="37" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/node/src/main/java/ru/relax/controller/NotificationsController.java</url>
-          <line>57</line>
-          <option name="timeStamp" value="38" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -338,5 +250,10 @@
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/HHTelegramBot$NodeApplication.ic" NAME="NodeApplication Coverage Results" MODIFIED="1685383940448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ru.relax.*</FILTER>
+    </SUITE>
   </component>
 </project>
