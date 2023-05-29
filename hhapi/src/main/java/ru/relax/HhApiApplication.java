@@ -1,15 +1,6 @@
 package ru.relax;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.databind.DeserializationFeature;
-import com.fasterxml.jackson.databind.ObjectMapper;
 import ru.relax.controller.HhApiController;
-import ru.relax.model.Data;
-
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
-import java.net.HttpURLConnection;
-import java.net.URL;
 
 public class HhApiApplication {
 
@@ -19,4 +10,3 @@ public class HhApiApplication {
         }
     }
 }
-

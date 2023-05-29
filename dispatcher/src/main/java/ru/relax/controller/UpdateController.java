@@ -14,6 +14,7 @@ import static ru.relax.model.RabbitQueue.*;
 @Log4j
 public class UpdateController {
     private boolean isRemove;
+
     private TelegramBot telegramBot;
     private UpdateProducer updateProducer;
 
@@ -57,6 +58,10 @@ public class UpdateController {
                 isRemove = true;
                 break;
             }
+            case "/getall": {
+                processGetAllVacancies(update);
+                break;
+            }
             default: {
                 processSearchQueryMessageUpdate(update);
             }
@@ -69,6 +74,10 @@ public class UpdateController {
 
     private void processRemove(Update update) {
         updateProducer.produce(REMOVE_COMMAND_UPDATE, update);
+    }
+
+    private void processGetAllVacancies(Update update) {
+        updateProducer.produce(GET_ALL_VACANCIES_COMMAND, update);
     }
 
     private void processSearchQueryMessageUpdate(Update update) {

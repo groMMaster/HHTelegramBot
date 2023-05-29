@@ -1,39 +1,68 @@
 package ru.relax.service.impl;
 
-import lombok.var;
+import javassist.NotFoundException;
 import org.springframework.stereotype.Service;
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
 import org.telegram.telegrambots.meta.api.objects.Update;
-import ru.relax.dao.RawDataDAO;
-import ru.relax.entity.RawData;
+import ru.relax.controller.NotificationsController;
+import ru.relax.entity.VacancyTag;
 import ru.relax.service.MainService;
 import ru.relax.service.ProduceService;
 
 @Service
 public class MainServiceImpl implements MainService {
-    private final RawDataDAO rawDataDAO;
     private final ProduceService produceService;
+    private final NotificationsController notificationsController;
 
-    public MainServiceImpl(RawDataDAO rawDataDAO, ProduceService produceService) {
-        this.rawDataDAO = rawDataDAO;
+    public MainServiceImpl(ProduceService produceService, NotificationsController notificationsController) {
         this.produceService = produceService;
+        this.notificationsController = notificationsController;
     }
 
     @Override
-    public void processTextMessage(Update update) {
-        saveRawData(update);
+    public void processSearchMessageUpdates(Update update) {
+        var chatId = update.getMessage().getChatId();
+        var tag = update.getMessage().getText();
+        notificationsController.addTagToUser(chatId, tag);
 
-        var message = update.getMessage();
-        var sendMessage = new SendMessage();
-        sendMessage.setChatId(message.getChatId());
-        sendMessage.setText("Node");
-        produceService.produceAnswer(sendMessage);
+        var vacancies = notificationsController.getNewVacanciesByUser(chatId, tag);
+
+        for (var vacancy : vacancies) {
+            var sendMessage = new SendMessage();
+            sendMessage.setChatId(chatId);
+            sendMessage.setText(vacancy.toString());
+            produceService.produceAnswerMessage(sendMessage);
+        }
     }
 
-    private void saveRawData(Update update) {
-        var rawData = RawData.builder()
-                .event(update)
-                .build();
-        rawDataDAO.save(rawData);
+    @Override
+    public void processStartCommandUpdates(Update update) {
+        var userId = update.getMessage().getChatId();
+        notificationsController.addUser(userId);
+    }
+
+    @Override
+    public void processRemoveCommandUpdates(Update update) {
+        var chatId = update.getMessage().getChatId();
+        var tag = update.getMessage().getText();
+        try {
+            notificationsController.removeVacancyTag(chatId, tag);
+        } catch (NotFoundException e) {
+            var sendMessage = new SendMessage();
+            sendMessage.setChatId(chatId);
+            sendMessage.setText("У вас не сохранено вакансии " + tag);
+            produceService.produceAnswerMessage(sendMessage);
+        }
+    }
+
+    @Override
+    public void processGetAllCommandUpdates(Update update) {
+        var chatId = update.getMessage().getChatId();
+        var tags = notificationsController.getVacancyTagsByChatId(chatId);
+        var result = String.join("\n", tags.stream().map(VacancyTag::getName).toList());
+        var sendMessage = new SendMessage();
+        sendMessage.setChatId(chatId);
+        sendMessage.setText("Ваши сохраненные запросы:\n" + result);
+        produceService.produceAnswerMessage(sendMessage);
     }
 }

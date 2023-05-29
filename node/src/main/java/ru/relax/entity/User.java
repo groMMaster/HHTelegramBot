@@ -18,7 +18,6 @@ import java.util.List;
 @Table(name = "users")
 public class User {
     @javax.persistence.Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     public User(Long id) {

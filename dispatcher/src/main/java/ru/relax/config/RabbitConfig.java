@@ -35,4 +35,9 @@ public class RabbitConfig {
     public Queue answerMessageQueue() {
         return new Queue(ANSWER_MESSAGE);
     }
+
+    @Bean
+    public Queue getAllMessageQueue() {
+        return new Queue(GET_ALL_VACANCIES_COMMAND);
+    }
 }
