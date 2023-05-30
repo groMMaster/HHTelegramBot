@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="500b00ab-26d3-4c6f-b402-5aa2e7edc990" name="Changes" comment="-">
-      <change afterPath="$PROJECT_DIR$/node/src/main/java/ru/relax/controller/Scheduler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node/src/main/java/ru/relax/controller/TimerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="500b00ab-26d3-4c6f-b402-5aa2e7edc990" name="Changes" comment="added timer">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dispatcher/src/main/java/ru/relax/controller/TelegramBot.java" beforeDir="false" afterPath="$PROJECT_DIR$/dispatcher/src/main/java/ru/relax/controller/TelegramBot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dispatcher/src/main/java/ru/relax/controller/UpdateController.java" beforeDir="false" afterPath="$PROJECT_DIR$/dispatcher/src/main/java/ru/relax/controller/UpdateController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node/src/main/java/ru/relax/controller/NotificationsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/node/src/main/java/ru/relax/controller/NotificationsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dispatcher.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/dispatcher.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node/src/main/java/ru/relax/controller/NotificationsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/node/src/main/java/ru/relax/controller/NodeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node/src/main/java/ru/relax/controller/Scheduler.java" beforeDir="false" afterPath="$PROJECT_DIR$/node/src/main/java/ru/relax/controller/Scheduler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node/src/main/java/ru/relax/service/impl/MainServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/node/src/main/java/ru/relax/service/impl/MainServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,9 +61,9 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
@@ -201,7 +199,7 @@
       <workItem from="1685032319993" duration="15200000" />
       <workItem from="1685370112986" duration="782000" />
       <workItem from="1685374721725" duration="1990000" />
-      <workItem from="1685384212165" duration="12110000" />
+      <workItem from="1685384212165" duration="14448000" />
     </task>
     <task id="LOCAL-00001" summary="-">
       <created>1685034095548</created>
@@ -210,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685034095549</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added timer">
+      <created>1685397232531</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1685397232531</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,7 +234,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="-" />
-    <option name="LAST_COMMIT_MESSAGE" value="-" />
+    <MESSAGE value="added timer" />
+    <option name="LAST_COMMIT_MESSAGE" value="added timer" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

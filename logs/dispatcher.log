@@ -103,3 +103,26 @@
 2023-05-29 10:40:21 DEBUG UpdateProducerImpl:20 - producer: .net developer
 2023-05-29 21:02:16 DEBUG UpdateProducerImpl:20 - producer: Python Middle
 2023-05-29 21:02:40 DEBUG UpdateProducerImpl:20 - producer: C Junior
+2023-05-30 13:12:26 ERROR TelegramBot:63 - Error executing org.telegram.telegrambots.meta.api.methods.send.SendMessage query: [400] Bad Request: chat not found
+2023-05-30 13:12:26 ERROR TelegramBot:63 - Error executing org.telegram.telegrambots.meta.api.methods.send.SendMessage query: [400] Bad Request: chat not found
+2023-05-30 13:12:27 ERROR TelegramBot:63 - Error executing org.telegram.telegrambots.meta.api.methods.send.SendMessage query: [400] Bad Request: chat not found
+2023-05-30 13:12:27 ERROR TelegramBot:63 - Error executing org.telegram.telegrambots.meta.api.methods.send.SendMessage query: [400] Bad Request: chat not found
+2023-05-30 13:12:27 ERROR TelegramBot:63 - Error executing org.telegram.telegrambots.meta.api.methods.send.SendMessage query: [400] Bad Request: chat not found
+2023-05-30 13:12:27 ERROR TelegramBot:63 - Error executing org.telegram.telegrambots.meta.api.methods.send.SendMessage query: [400] Bad Request: chat not found
+2023-05-30 13:12:27 ERROR TelegramBot:63 - Error executing org.telegram.telegrambots.meta.api.methods.send.SendMessage query: [400] Bad Request: chat not found
+2023-05-30 13:12:27 ERROR TelegramBot:63 - Error executing org.telegram.telegrambots.meta.api.methods.send.SendMessage query: [400] Bad Request: chat not found
+2023-05-30 13:12:27 ERROR TelegramBot:63 - Error executing org.telegram.telegrambots.meta.api.methods.send.SendMessage query: [400] Bad Request: chat not found
+2023-05-30 13:12:27 ERROR TelegramBot:63 - Error executing org.telegram.telegrambots.meta.api.methods.send.SendMessage query: [400] Bad Request: chat not found
+2023-05-30 13:12:28 ERROR TelegramBot:63 - Error executing org.telegram.telegrambots.meta.api.methods.send.SendMessage query: [400] Bad Request: chat not found
+2023-05-30 13:12:28 ERROR TelegramBot:63 - Error executing org.telegram.telegrambots.meta.api.methods.send.SendMessage query: [400] Bad Request: chat not found
+2023-05-30 13:12:28 ERROR TelegramBot:63 - Error executing org.telegram.telegrambots.meta.api.methods.send.SendMessage query: [400] Bad Request: chat not found
+2023-05-30 13:12:28 ERROR TelegramBot:63 - Error executing org.telegram.telegrambots.meta.api.methods.send.SendMessage query: [400] Bad Request: chat not found
+2023-05-30 13:12:28 ERROR TelegramBot:63 - Error executing org.telegram.telegrambots.meta.api.methods.send.SendMessage query: [400] Bad Request: chat not found
+2023-05-30 13:12:29 ERROR TelegramBot:63 - Error executing org.telegram.telegrambots.meta.api.methods.send.SendMessage query: [400] Bad Request: chat not found
+2023-05-30 13:12:29 ERROR TelegramBot:63 - Error executing org.telegram.telegrambots.meta.api.methods.send.SendMessage query: [400] Bad Request: chat not found
+2023-05-30 13:12:33 DEBUG UpdateProducerImpl:20 - producer: /start
+2023-05-30 13:14:39 DEBUG UpdateProducerImpl:20 - producer: Java
+2023-05-30 13:19:05 DEBUG UpdateProducerImpl:20 - producer: /start
+2023-05-30 13:19:21 DEBUG UpdateProducerImpl:20 - producer: Java стажер
+2023-05-30 13:27:28 DEBUG UpdateProducerImpl:20 - producer: /getall
+2023-05-30 13:27:35 DEBUG UpdateProducerImpl:20 - producer: C# Junior

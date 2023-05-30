@@ -4,7 +4,7 @@ import javassist.NotFoundException;
 import org.springframework.stereotype.Service;
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
 import org.telegram.telegrambots.meta.api.objects.Update;
-import ru.relax.controller.NotificationsController;
+import ru.relax.controller.NodeController;
 import ru.relax.entity.VacancyTag;
 import ru.relax.service.MainService;
 import ru.relax.service.ProduceService;
@@ -12,20 +12,20 @@ import ru.relax.service.ProduceService;
 @Service
 public class MainServiceImpl implements MainService {
     private final ProduceService produceService;
-    private final NotificationsController notificationsController;
+    private final NodeController nodeController;
 
-    public MainServiceImpl(ProduceService produceService, NotificationsController notificationsController) {
+    public MainServiceImpl(ProduceService produceService, NodeController nodeController) {
         this.produceService = produceService;
-        this.notificationsController = notificationsController;
+        this.nodeController = nodeController;
     }
 
     @Override
     public void processSearchMessageUpdates(Update update) {
         var chatId = update.getMessage().getChatId();
         var tag = update.getMessage().getText();
-        notificationsController.addTagToUser(chatId, tag);
+        nodeController.addTagToUser(chatId, tag);
 
-        var vacancies = notificationsController.getNewVacanciesByUser(chatId, tag);
+        var vacancies = nodeController.getNewVacanciesByUser(chatId, tag);
 
         for (var vacancy : vacancies) {
             var sendMessage = new SendMessage();
@@ -38,7 +38,7 @@ public class MainServiceImpl implements MainService {
     @Override
     public void processStartCommandUpdates(Update update) {
         var userId = update.getMessage().getChatId();
-        notificationsController.addUser(userId);
+        nodeController.addUser(userId);
     }
 
     @Override
@@ -46,7 +46,7 @@ public class MainServiceImpl implements MainService {
         var chatId = update.getMessage().getChatId();
         var tag = update.getMessage().getText();
         try {
-            notificationsController.removeVacancyTag(chatId, tag);
+            nodeController.removeVacancyTag(chatId, tag);
         } catch (NotFoundException e) {
             var sendMessage = new SendMessage();
             sendMessage.setChatId(chatId);
@@ -58,7 +58,7 @@ public class MainServiceImpl implements MainService {
     @Override
     public void processGetAllCommandUpdates(Update update) {
         var chatId = update.getMessage().getChatId();
-        var tags = notificationsController.getVacancyTagsByChatId(chatId);
+        var tags = nodeController.getVacancyTagsByChatId(chatId);
         var result = String.join("\n", tags.stream().map(VacancyTag::getName).toList());
         var sendMessage = new SendMessage();
         sendMessage.setChatId(chatId);

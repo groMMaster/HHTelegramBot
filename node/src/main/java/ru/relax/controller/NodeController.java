@@ -16,14 +16,14 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 @Component
-public class NotificationsController {
+public class NodeController {
 
     private final UserDAO userDAO;
     private final VacancyTagDAO vacancyTagDAO;
 
 
     @Autowired
-    public NotificationsController(UserDAO userDAO, VacancyTagDAO vacancyTagDAO){
+    public NodeController(UserDAO userDAO, VacancyTagDAO vacancyTagDAO){
         this.userDAO = userDAO;
         this.vacancyTagDAO = vacancyTagDAO;
     }

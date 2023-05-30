@@ -104,17 +104,4 @@ public class UpdateController {
                 "Удачи!");
         setView(received);
     }
-
-
-    public void sendMessage(Long chatId, String textMessage) {
-        SendMessage message = new SendMessage();
-        message.setChatId(chatId);
-        message.setText(textMessage);
-
-        try {
-            telegramBot.execute(message);
-        } catch (TelegramApiException e) {
-            e.printStackTrace();
-        }
-    }
 }
