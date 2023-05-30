@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="500b00ab-26d3-4c6f-b402-5aa2e7edc990" name="Changes" comment="added timer">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/dispatcher.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/dispatcher.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node/src/main/java/ru/relax/controller/NotificationsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/node/src/main/java/ru/relax/controller/NodeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node/src/main/java/ru/relax/controller/Scheduler.java" beforeDir="false" afterPath="$PROJECT_DIR$/node/src/main/java/ru/relax/controller/Scheduler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node/src/main/java/ru/relax/service/impl/MainServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/node/src/main/java/ru/relax/service/impl/MainServiceImpl.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="module" />
+    </option>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2Q64pqq32V87KqBOCaZiNznqNus" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\groMM\Downloads\HHTelegramBot-hhapi\HHTelegramBot-hhapi\notifications\src\main\java\ru\relax" />
+      <recent name="C:\Users\groMM\Downloads\HHTelegramBot-hhapi\HHTelegramBot-hhapi\dispatcher\src\main\java\ru\relax" />
+      <recent name="C:\Users\QmRite\Downloads\HHTelegramBot-hhapi\hhapi17\src\main\java\ru\relax\model" />
+      <recent name="C:\Users\QmRite\Downloads\HHTelegramBot-hhapi\notifications\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ru.relax.controller" />
+      <recent name="ru.relax.services" />
+      <recent name="ru.relax" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.NodeApplication">
+    <configuration name="HhApiApplication" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.relax.HhApiApplication" />
+      <module name="hhapi17" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="ru.relax.NodeApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="node" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/node" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="DispatcherApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="dispatcher" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.relax.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ru.relax.DispatcherApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NodeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="node" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.relax.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ru.relax.NodeApplication" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NodeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <module name="node" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ru.relax.NodeApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.HhApiApplication" />
+      <item itemvalue="Application.Unnamed" />
+      <item itemvalue="Maven.node" />
+      <item itemvalue="Spring Boot.NodeApplication" />
+      <item itemvalue="Spring Boot.DispatcherApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.NodeApplication" />
+        <item itemvalue="Spring Boot.DispatcherApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="500b00ab-26d3-4c6f-b402-5aa2e7edc990" name="Changes" comment="" />
+      <created>1684660883908</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1684660883908</updated>
+      <workItem from="1684660885640" duration="1228000" />
+      <workItem from="1684696861500" duration="5539000" />
+      <workItem from="1684738898821" duration="228000" />
+      <workItem from="1684772425583" duration="5348000" />
+      <workItem from="1684778067575" duration="292000" />
+      <workItem from="1684778375664" duration="2100000" />
+      <workItem from="1684829559139" duration="24050000" />
+      <workItem from="1684936284986" duration="10563000" />
+      <workItem from="1685012922969" duration="5979000" />
+      <workItem from="1685023198363" duration="6767000" />
+      <workItem from="1685030027861" duration="305000" />
+      <workItem from="1685030357974" duration="1927000" />
+      <workItem from="1685032319993" duration="15200000" />
+      <workItem from="1685370112986" duration="782000" />
+      <workItem from="1685374721725" duration="1990000" />
+      <workItem from="1685384212165" duration="14448000" />
+    </task>
+    <task id="LOCAL-00001" summary="-">
+      <created>1685034095548</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1685034095549</updated>
+    </task>
+    <task id="LOCAL-00002" summary="added timer">
+      <created>1685397232531</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1685397232531</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="-" />
+    <MESSAGE value="added timer" />
+    <option name="LAST_COMMIT_MESSAGE" value="added timer" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/node/src/main/java/ru/relax/service/impl/MainServiceImpl.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="SpringBootApplicationConfigurationType">
+        <watch expression="users.get(2)" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/HHTelegramBot$NodeApplication.ic" NAME="NodeApplication Coverage Results" MODIFIED="1685383940448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ru.relax.*</FILTER>
+    </SUITE>
+  </component>
+</project>
